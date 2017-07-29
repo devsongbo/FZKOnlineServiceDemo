@@ -1,0 +1,19 @@
+PODS:
+  - FZKOnlineService (0.0.1):
+    - QIYU_iOS_SDK (~> 3.7.1)
+  - QIYU_iOS_SDK (3.7.1)
+
+DEPENDENCIES:
+  - FZKOnlineService (from `~/Modu/FZKOnlineServiceDemo`)
+
+EXTERNAL SOURCES:
+  FZKOnlineService:
+    :path: ~/Modu/FZKOnlineServiceDemo
+
+SPEC CHECKSUMS:
+  FZKOnlineService: 592a474a55370757190c1d1bd1b92fedff873f89
+  QIYU_iOS_SDK: 3236bb5982718934639a436544bf34485366b01d
+
+PODFILE CHECKSUM: a2ead8591f50aac2eb7da5f198fab3709e44566c
+
+COCOAPODS: 1.2.1
