@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4234C360349F3AC9EC435DFC6049C2 /* FZKOnlineService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5AC8B7EBBF6640F19987CBEC151335 /* FZKOnlineService-dummy.m */; };
+		4350963729D5A95B934FE2384CE8C82E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5F90C8DEA14B391D6FD3724272534E1D /* FZKOnlineService.h in Headers */ = {isa = PBXBuildFile; fileRef = 839801E38D326EBBE001D62A99347DF1 /* FZKOnlineService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AB5335D64B7293C189DEEC92F7232E6 /* Pods-FZKOnlineServiceDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C73BB979851F6769D14D47AB3083BC4B /* Pods-FZKOnlineServiceDemo-dummy.m */; };
+		A1A00877AA22F4FB0E397D802364374A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB7DEABC27EE72B16ED90323C2F01855 /* FZKOnlineService.m in Sources */ = {isa = PBXBuildFile; fileRef = 618457DE178D631CA2FED8B25642C782 /* FZKOnlineService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15457E4C544A3D09DA77A947BF5B9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33BCF903AA21ED52DB7EC958F54A2EE8;
+			remoteInfo = FZKOnlineService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02982751D0542A0977492577359F8EED /* QYUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYUserInfo.h; path = SDK/ExportHeaders/QYUserInfo.h; sourceTree = "<group>"; };
+		239E2CC7BFB9D196E607C050F14FE7CA /* FZKOnlineService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZKOnlineService.xcconfig; sourceTree = "<group>"; };
+		27FEF86FDBC097AEDF1E445488F5FD6C /* libFZKOnlineService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFZKOnlineService.a; path = libFZKOnlineService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		337E09DBA8E4DB6939E2BB636506D7D1 /* FZKOnlineService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZKOnlineService-prefix.pch"; sourceTree = "<group>"; };
+		3485CEE75F10A5F9C5B2761985129989 /* Pods-FZKOnlineServiceDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZKOnlineServiceDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A2CB3CADF881D6367A962B6F02607A2 /* QYPOPSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPOPSDK.h; path = SDK/ExportHeaders/POP/QYPOPSDK.h; sourceTree = "<group>"; };
+		3AA3FC84267AF82045737A2E6D13D85F /* QYCommodityInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCommodityInfo.h; path = SDK/ExportHeaders/QYCommodityInfo.h; sourceTree = "<group>"; };
+		4074230349C754A61B75063CFB29CC78 /* QYSessionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSessionInfo.h; path = SDK/ExportHeaders/QYSessionInfo.h; sourceTree = "<group>"; };
+		425D4B7FD10B374554DE245A8E80B0E8 /* QYHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYHeaders.h; path = SDK/ExportHeaders/QYHeaders.h; sourceTree = "<group>"; };
+		44E897CD0450F5293F9C149BC1BC21B9 /* QYCustomActionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCustomActionConfig.h; path = SDK/ExportHeaders/QYCustomActionConfig.h; sourceTree = "<group>"; };
+		47A1F3A390598A8CE502A414DB2B4FF6 /* Pods-FZKOnlineServiceDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZKOnlineServiceDemo-frameworks.sh"; sourceTree = "<group>"; };
+		4A9710C70F89592DACB1574319299F2B /* QYSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSource.h; path = SDK/ExportHeaders/QYSource.h; sourceTree = "<group>"; };
+		59554EDE563A5E151293B252F3059334 /* QYPushMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPushMessage.h; path = SDK/ExportHeaders/QYPushMessage.h; sourceTree = "<group>"; };
+		5E5AC8B7EBBF6640F19987CBEC151335 /* FZKOnlineService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZKOnlineService-dummy.m"; sourceTree = "<group>"; };
+		5FC6B998D0FFE752B08E59B439C79996 /* QYPOPSessionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPOPSessionViewController.h; path = SDK/ExportHeaders/POP/QYPOPSessionViewController.h; sourceTree = "<group>"; };
+		618457DE178D631CA2FED8B25642C782 /* FZKOnlineService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FZKOnlineService.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BED313AF7A7D9470ACEC6DA67EC2637 /* Pods-FZKOnlineServiceDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZKOnlineServiceDemo-resources.sh"; sourceTree = "<group>"; };
+		6D238AAD4176E934399D82F3B47582F3 /* QYPOPSessionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPOPSessionInfo.h; path = SDK/ExportHeaders/POP/QYPOPSessionInfo.h; sourceTree = "<group>"; };
+		6DAD20F472F4DE661B0D9CEC735B8D2C /* QYResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYResource.bundle; path = SDK/QYResource.bundle; sourceTree = "<group>"; };
+		708218BCAD938E3127608A9BE5C3244D /* QYPOPMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPOPMessageInfo.h; path = SDK/ExportHeaders/POP/QYPOPMessageInfo.h; sourceTree = "<group>"; };
+		7F165F7EE9FAC1EBEA061194AD32B86C /* QYConversationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYConversationManager.h; path = SDK/ExportHeaders/QYConversationManager.h; sourceTree = "<group>"; };
+		839801E38D326EBBE001D62A99347DF1 /* FZKOnlineService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FZKOnlineService.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD05EA35981DB597342F037940CFFEA /* QYSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSDK.h; path = SDK/ExportHeaders/QYSDK.h; sourceTree = "<group>"; };
+		9ED630E37D80664130B796FF1E8DA23C /* Pods-FZKOnlineServiceDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZKOnlineServiceDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A24F6E76DE87C6A4621FE6B8F097949C /* QYMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYMessageInfo.h; path = SDK/ExportHeaders/QYMessageInfo.h; sourceTree = "<group>"; };
+		B9EDBEE572D19270621F99C047EB4C3E /* libevent.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libevent.a; path = SDK/libevent.a; sourceTree = "<group>"; };
+		BF2E8ED258098C377F32E1F97CA0F7DE /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = SDK/libcrypto.a; sourceTree = "<group>"; };
+		C36DFF73BAC2774E9B6FF06AFD198F36 /* Pods-FZKOnlineServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZKOnlineServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C73BB979851F6769D14D47AB3083BC4B /* Pods-FZKOnlineServiceDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZKOnlineServiceDemo-dummy.m"; sourceTree = "<group>"; };
+		CFBCFD99F8113B00F05AD211405751A1 /* libPods-FZKOnlineServiceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FZKOnlineServiceDemo.a"; path = "libPods-FZKOnlineServiceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAF0B1F35B123A43397BEF7E41FDD34 /* QYSessionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYSessionViewController.h; path = SDK/ExportHeaders/QYSessionViewController.h; sourceTree = "<group>"; };
+		E1618F0ED55BC02FB5625D23416F8307 /* QYCustomUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYCustomUIConfig.h; path = SDK/ExportHeaders/QYCustomUIConfig.h; sourceTree = "<group>"; };
+		E415CC3526F52BF881A179E511D7A921 /* Pods-FZKOnlineServiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZKOnlineServiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BC9A532F0B89F6C33A9BA7BCD08150 /* QYPOPConversationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPOPConversationManager.h; path = SDK/ExportHeaders/POP/QYPOPConversationManager.h; sourceTree = "<group>"; };
+		F297C1445ABD9704EE8F101ABD176203 /* QYPOPCustomUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QYPOPCustomUIConfig.h; path = SDK/ExportHeaders/POP/QYPOPCustomUIConfig.h; sourceTree = "<group>"; };
+		FC8E99A9994F945A56D75D6710533EF4 /* libQYSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libQYSDK.a; path = SDK/libQYSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F53B9B6917C0FAEE17A615A3EDD41FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A00877AA22F4FB0E397D802364374A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF6DA892CB5DBDFD1AB2C6EFD633CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4350963729D5A95B934FE2384CE8C82E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B55FA1B6091EC6229E58BE0E0AC73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FEF86FDBC097AEDF1E445488F5FD6C /* libFZKOnlineService.a */,
+				CFBCFD99F8113B00F05AD211405751A1 /* libPods-FZKOnlineServiceDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35AD675A2484FCF5E0180DF6AE89BB5C /* Pods-FZKOnlineServiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9ED630E37D80664130B796FF1E8DA23C /* Pods-FZKOnlineServiceDemo-acknowledgements.markdown */,
+				3485CEE75F10A5F9C5B2761985129989 /* Pods-FZKOnlineServiceDemo-acknowledgements.plist */,
+				C73BB979851F6769D14D47AB3083BC4B /* Pods-FZKOnlineServiceDemo-dummy.m */,
+				47A1F3A390598A8CE502A414DB2B4FF6 /* Pods-FZKOnlineServiceDemo-frameworks.sh */,
+				6BED313AF7A7D9470ACEC6DA67EC2637 /* Pods-FZKOnlineServiceDemo-resources.sh */,
+				E415CC3526F52BF881A179E511D7A921 /* Pods-FZKOnlineServiceDemo.debug.xcconfig */,
+				C36DFF73BAC2774E9B6FF06AFD198F36 /* Pods-FZKOnlineServiceDemo.release.xcconfig */,
+			);
+			name = "Pods-FZKOnlineServiceDemo";
+			path = "Target Support Files/Pods-FZKOnlineServiceDemo";
+			sourceTree = "<group>";
+		};
+		44ADB5AA72E4DE57C21473CB77AC74C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35AD675A2484FCF5E0180DF6AE89BB5C /* Pods-FZKOnlineServiceDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BFFD3BF26FC4C72CB2AB1280C50CEF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A133A865CE2B7AAA0D6E34D090E0094 /* QIYU_iOS_SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D1444BCE636A2222EA18F411FA7DA8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DAD20F472F4DE661B0D9CEC735B8D2C /* QYResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A133A865CE2B7AAA0D6E34D090E0094 /* QIYU_iOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3FC84267AF82045737A2E6D13D85F /* QYCommodityInfo.h */,
+				7F165F7EE9FAC1EBEA061194AD32B86C /* QYConversationManager.h */,
+				44E897CD0450F5293F9C149BC1BC21B9 /* QYCustomActionConfig.h */,
+				E1618F0ED55BC02FB5625D23416F8307 /* QYCustomUIConfig.h */,
+				425D4B7FD10B374554DE245A8E80B0E8 /* QYHeaders.h */,
+				A24F6E76DE87C6A4621FE6B8F097949C /* QYMessageInfo.h */,
+				E5BC9A532F0B89F6C33A9BA7BCD08150 /* QYPOPConversationManager.h */,
+				F297C1445ABD9704EE8F101ABD176203 /* QYPOPCustomUIConfig.h */,
+				708218BCAD938E3127608A9BE5C3244D /* QYPOPMessageInfo.h */,
+				3A2CB3CADF881D6367A962B6F02607A2 /* QYPOPSDK.h */,
+				6D238AAD4176E934399D82F3B47582F3 /* QYPOPSessionInfo.h */,
+				5FC6B998D0FFE752B08E59B439C79996 /* QYPOPSessionViewController.h */,
+				59554EDE563A5E151293B252F3059334 /* QYPushMessage.h */,
+				9AD05EA35981DB597342F037940CFFEA /* QYSDK.h */,
+				4074230349C754A61B75063CFB29CC78 /* QYSessionInfo.h */,
+				DFAF0B1F35B123A43397BEF7E41FDD34 /* QYSessionViewController.h */,
+				4A9710C70F89592DACB1574319299F2B /* QYSource.h */,
+				02982751D0542A0977492577359F8EED /* QYUserInfo.h */,
+				8A1C69863B0FC84921D93C2F9BAAF867 /* Frameworks */,
+				5D1444BCE636A2222EA18F411FA7DA8E /* Resources */,
+			);
+			name = QIYU_iOS_SDK;
+			path = QIYU_iOS_SDK;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D86FB83B166C0F8EB96CA76E92CC7F85 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5BFFD3BF26FC4C72CB2AB1280C50CEF1 /* Pods */,
+				21B55FA1B6091EC6229E58BE0E0AC73A /* Products */,
+				44ADB5AA72E4DE57C21473CB77AC74C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		847E3B8D38C8317AAB9463B8B6397BC0 /* FZKOnlineService */ = {
+			isa = PBXGroup;
+			children = (
+				839801E38D326EBBE001D62A99347DF1 /* FZKOnlineService.h */,
+				618457DE178D631CA2FED8B25642C782 /* FZKOnlineService.m */,
+			);
+			name = FZKOnlineService;
+			path = FZKOnlineService;
+			sourceTree = "<group>";
+		};
+		8A1C69863B0FC84921D93C2F9BAAF867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2E8ED258098C377F32E1F97CA0F7DE /* libcrypto.a */,
+				B9EDBEE572D19270621F99C047EB4C3E /* libevent.a */,
+				FC8E99A9994F945A56D75D6710533EF4 /* libQYSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D86FB83B166C0F8EB96CA76E92CC7F85 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F824F0668F2E896055ED3983027A3548 /* FZKOnlineService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F824F0668F2E896055ED3983027A3548 /* FZKOnlineService */ = {
+			isa = PBXGroup;
+			children = (
+				847E3B8D38C8317AAB9463B8B6397BC0 /* FZKOnlineService */,
+				FC409ECA8CDB4E7530BAB728AA7CA20C /* Support Files */,
+			);
+			name = FZKOnlineService;
+			path = /Users/songbo/Modu/FZKOnlineServiceDemo;
+			sourceTree = "<absolute>";
+		};
+		FC409ECA8CDB4E7530BAB728AA7CA20C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				239E2CC7BFB9D196E607C050F14FE7CA /* FZKOnlineService.xcconfig */,
+				5E5AC8B7EBBF6640F19987CBEC151335 /* FZKOnlineService-dummy.m */,
+				337E09DBA8E4DB6939E2BB636506D7D1 /* FZKOnlineService-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/FZKOnlineService";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		929C4402517FD2EAFF149F4530D3B810 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F90C8DEA14B391D6FD3724272534E1D /* FZKOnlineService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33BCF903AA21ED52DB7EC958F54A2EE8 /* FZKOnlineService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7D28D37D6F645E3645954CB5AB4253 /* Build configuration list for PBXNativeTarget "FZKOnlineService" */;
+			buildPhases = (
+				2B88DF4E9BEE7A357AF97509E0126669 /* Sources */,
+				7F53B9B6917C0FAEE17A615A3EDD41FC /* Frameworks */,
+				929C4402517FD2EAFF149F4530D3B810 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZKOnlineService;
+			productName = FZKOnlineService;
+			productReference = 27FEF86FDBC097AEDF1E445488F5FD6C /* libFZKOnlineService.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA91DCB8220427F13CA6BDC807F59E30 /* Pods-FZKOnlineServiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B92D85E80560E830938E4DE3402840 /* Build configuration list for PBXNativeTarget "Pods-FZKOnlineServiceDemo" */;
+			buildPhases = (
+				C02F620C464AD97536F6A8A601B4AF28 /* Sources */,
+				ECF6DA892CB5DBDFD1AB2C6EFD633CAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F94DF29F8C236DD3C287C63E0C435676 /* PBXTargetDependency */,
+			);
+			name = "Pods-FZKOnlineServiceDemo";
+			productName = "Pods-FZKOnlineServiceDemo";
+			productReference = CFBCFD99F8113B00F05AD211405751A1 /* libPods-FZKOnlineServiceDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21B55FA1B6091EC6229E58BE0E0AC73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33BCF903AA21ED52DB7EC958F54A2EE8 /* FZKOnlineService */,
+				BA91DCB8220427F13CA6BDC807F59E30 /* Pods-FZKOnlineServiceDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B88DF4E9BEE7A357AF97509E0126669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4234C360349F3AC9EC435DFC6049C2 /* FZKOnlineService-dummy.m in Sources */,
+				CB7DEABC27EE72B16ED90323C2F01855 /* FZKOnlineService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C02F620C464AD97536F6A8A601B4AF28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB5335D64B7293C189DEEC92F7232E6 /* Pods-FZKOnlineServiceDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F94DF29F8C236DD3C287C63E0C435676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FZKOnlineService;
+			target = 33BCF903AA21ED52DB7EC958F54A2EE8 /* FZKOnlineService */;
+			targetProxy = B15457E4C544A3D09DA77A947BF5B9D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4392CE10BC2517F8BA4E0686868BC61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239E2CC7BFB9D196E607C050F14FE7CA /* FZKOnlineService.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FZKOnlineService/FZKOnlineService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6A5D6DCC66DE2934341DA7D0D08561B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239E2CC7BFB9D196E607C050F14FE7CA /* FZKOnlineService.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FZKOnlineService/FZKOnlineService-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A322CEA2ADB82C06D05C94875DC5ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36DFF73BAC2774E9B6FF06AFD198F36 /* Pods-FZKOnlineServiceDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EEB8C2D8830040B3498B816AFB59E73F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E415CC3526F52BF881A179E511D7A921 /* Pods-FZKOnlineServiceDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B92D85E80560E830938E4DE3402840 /* Build configuration list for PBXNativeTarget "Pods-FZKOnlineServiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB8C2D8830040B3498B816AFB59E73F /* Debug */,
+				9A322CEA2ADB82C06D05C94875DC5ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C7D28D37D6F645E3645954CB5AB4253 /* Build configuration list for PBXNativeTarget "FZKOnlineService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5D6DCC66DE2934341DA7D0D08561B7 /* Debug */,
+				4392CE10BC2517F8BA4E0686868BC61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
