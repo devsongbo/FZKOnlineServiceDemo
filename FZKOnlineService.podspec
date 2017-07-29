@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                       Developer can use FZKOnlineService make iOS programming easier
                     DESC
 
-  s.homepage     = "https://github.com/fzk/FZKOnlineService/"
+  s.homepage     = "https://github.com/devsongbo/FZKOnlineServiceDemo/"
 
   s.license      = "GPL"
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "soxeon" => "devsongbo@gmail.com" }
 
-  s.source       = { :git => "https://github.com/fzk/FZKOnlineService.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/devsongbo/FZKOnlineServiceDemo.git", :tag => "#{s.version}" }
 
   s.source_files = 'FZKOnlineService/*.{h,m}'
   # s.resource = 'BeeHive/*.bundle'
